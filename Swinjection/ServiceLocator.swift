@@ -14,6 +14,11 @@ protocol ServiceLocatorProtocol {
     func resolve<T>() -> T?
 }
 
+struct ServiceEntry<T> {
+    var service: T
+    var scope: Scope
+}
+
 class ServiceLocator: ServiceLocatorProtocol {
     static let shared = ServiceLocator()
     
@@ -22,8 +27,8 @@ class ServiceLocator: ServiceLocatorProtocol {
     private init() {}
     
     func register<T>(
-        service: T,
-        scope: Scope
+            service: T,
+            scope: Scope
     ) {
         let key = typeName(service)
         services[key] = service
