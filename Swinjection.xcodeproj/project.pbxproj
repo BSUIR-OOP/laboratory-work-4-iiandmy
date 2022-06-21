@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9AA83691284F62DE00BF1FBA /* Swinjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA83690284F62DE00BF1FBA /* Swinjection.swift */; };
 		9AA83698284F838000BF1FBA /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA83697284F838000BF1FBA /* ServiceLocator.swift */; };
+		DC4974CD43AF021671FEF1B0 /* ServiceEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4976EA9783423F834615D3 /* ServiceEntry.swift */; };
+		DC49795A02801246703BAAF2 /* ObjectScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC497A7FE920DD68602EB6C1 /* ObjectScope.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		9AA8368D284F62DE00BF1FBA /* libSwinjection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwinjection.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA83690284F62DE00BF1FBA /* Swinjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swinjection.swift; sourceTree = "<group>"; };
 		9AA83697284F838000BF1FBA /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		DC4976EA9783423F834615D3 /* ServiceEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceEntry.swift; sourceTree = "<group>"; };
+		DC497A7FE920DD68602EB6C1 /* ObjectScope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectScope.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				9AA83690284F62DE00BF1FBA /* Swinjection.swift */,
 				9AA83697284F838000BF1FBA /* ServiceLocator.swift */,
+				DC4976EA9783423F834615D3 /* ServiceEntry.swift */,
+				DC497A7FE920DD68602EB6C1 /* ObjectScope.swift */,
 			);
 			path = Swinjection;
 			sourceTree = "<group>";
@@ -125,6 +131,8 @@
 			files = (
 				9AA83698284F838000BF1FBA /* ServiceLocator.swift in Sources */,
 				9AA83691284F62DE00BF1FBA /* Swinjection.swift in Sources */,
+				DC4974CD43AF021671FEF1B0 /* ServiceEntry.swift in Sources */,
+				DC49795A02801246703BAAF2 /* ObjectScope.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
