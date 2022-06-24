@@ -4,6 +4,6 @@
 
 import Foundation
 
-enum ObjectScope {
-    case Transient, Singleton
+public enum ObjectScope {
+    case transient, singleton
 }
