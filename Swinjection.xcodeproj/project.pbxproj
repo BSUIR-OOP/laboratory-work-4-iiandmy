@@ -6,12 +6,6 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		9AA83691284F62DE00BF1FBA /* Swinjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA83690284F62DE00BF1FBA /* Swinjection.swift */; };
-		DC4974CD43AF021671FEF1B0 /* ServiceEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4976EA9783423F834615D3 /* ServiceEntry.swift */; };
-		DC49795A02801246703BAAF2 /* ObjectScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC497A7FE920DD68602EB6C1 /* ObjectScope.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		9AA8368B284F62DE00BF1FBA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -25,11 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9A6D846B286652E3006EE994 /* DITestPG.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DITestPG.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9AA8368D284F62DE00BF1FBA /* libSwinjection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwinjection.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AA83690284F62DE00BF1FBA /* Swinjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swinjection.swift; sourceTree = "<group>"; };
-		DC4976EA9783423F834615D3 /* ServiceEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceEntry.swift; sourceTree = "<group>"; };
-		DC497A7FE920DD68602EB6C1 /* ObjectScope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectScope.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +36,6 @@
 		9AA83684284F62DE00BF1FBA = {
 			isa = PBXGroup;
 			children = (
-				9A6D846B286652E3006EE994 /* DITestPG.playground */,
 				9AA8368F284F62DE00BF1FBA /* Swinjection */,
 				9AA8368E284F62DE00BF1FBA /* Products */,
 			);
@@ -63,9 +52,6 @@
 		9AA8368F284F62DE00BF1FBA /* Swinjection */ = {
 			isa = PBXGroup;
 			children = (
-				9AA83690284F62DE00BF1FBA /* Swinjection.swift */,
-				DC4976EA9783423F834615D3 /* ServiceEntry.swift */,
-				DC497A7FE920DD68602EB6C1 /* ObjectScope.swift */,
 			);
 			path = Swinjection;
 			sourceTree = "<group>";
@@ -131,9 +117,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AA83691284F62DE00BF1FBA /* Swinjection.swift in Sources */,
-				DC4974CD43AF021671FEF1B0 /* ServiceEntry.swift in Sources */,
-				DC49795A02801246703BAAF2 /* ObjectScope.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
